@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 50em) {
+  .embed-container.block.centered {
+    padding-bottom: initial;
+    height: 75vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  .embed-container.block.centered iframe,
+  .embed-container.block.centered object,
+  .embed-container.block.centered embed {
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .embed-container.block.centered video {
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.tile {
+  height: 25vh;
+  margin-bottom: 0;
+  /**/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-one {
+  background-image: url('https://images.unsplash.com/photo-1453974336165-b5c58464f1ed?ixlib=rb-0.3.5&q=66&fm=jpg&w=600&h=400&crop=entropy&s=12d0ef05e407b1c9c85ad9875ece1a13');
+}
+.bg-two {
+  background-image: url('https://images.unsplash.com/photo-1451186859696-371d9477be93?ixlib=rb-0.3.5&q=80&fm=jpg&w=600&h=400&crop=entropy&s=793b5d1d4707b9d5685bb15e8a99467e');
+}
+.bg-three {
+  background-image: url('https://images.unsplash.com/photo-1444044205806-38f3ed106c10?ixlib=rb-0.3.5&q=66&fm=jpg&w=600&h=400&crop=entropy&s=9c53d289059cccef8ab155f3269af87a');
+}
+.bg-four {
+  background-image: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-0.3.5&q=66&fm=jpg&w=600&h=400&crop=entropy&s=4f1d1cfe4ed664efd7b97268a49e7170');
+}
+
+.tile.column,
+.tile.columns {
+  padding: 0;
+  position: relative;
+}
+
+.tile a {
+  background-color: rgba(0,0,0,.44);
+  color:white;
+  display: block;
+  text-align: center;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom: 0;
+  left:0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all 400ms;
+}
+
+.tile a:hover {
+  background-color: rgba(0,0,0,.66);
+}
+
+.stripe {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 75vh;
+}
+
+/**/
+
+#one h1 {
+  position: absolute;
+  z-index: 9;
+  top:37.5%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  color:white;
+  font-size: 6rem;
+  text-shadow: 0 0 .66rem rgba(0,0,0,.33);
+}
+

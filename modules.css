@@ -217,7 +217,6 @@ html, body {
   .wrapper,
   .container {
     margin: 0 auto;
-    padding-bottom: 2rem;
     min-width: 30rem;
     width: 80%;
   }
@@ -228,7 +227,6 @@ html, body {
   .wrapper,
   .container {
     margin: 0 auto;
-    padding-bottom: 2rem;
     max-width: 75rem;
   }
 
@@ -438,3 +436,21 @@ header.fixed {
   width: 100%;
   height: 100%;
 }
+
+/* margin, padding, etc. */
+.m0           { margin:  0; }
+
+.p0           { padding: 0; }
+
+.mt1          { margin-top: 1em; }
+.mt2          { margin-top: 2em; }
+
+.pt1          { padding-top: 1em; }
+.pt2          { padding-top: 2em; }
+.pt3          { padding-top: 3em; }
+.pt4          { padding-top: 4em; }
+
+.pb1          { padding-bottom: 1em; }
+.pb2          { padding-bottom: 2em; }
+.pb3          { padding-bottom: 3em; }
+.pb4          { padding-bottom: 4em; }

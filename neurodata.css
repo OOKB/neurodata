@@ -80,6 +80,10 @@ body {
   min-height: 75vh;
 }
 
+.stripe.pb0 {
+  padding-bottom: 0;
+}
+
 /**/
 
 #one h1 {

@@ -89,13 +89,7 @@ body {
 }
 
 .stripe {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   min-height: 75vh;
-}
-
-.stripe.pb0 {
-  padding-bottom: 0;
 }
 
 /**/

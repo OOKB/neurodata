@@ -27,12 +27,26 @@ body {
 }
 
 .tile {
-  height: 25vh;
-  margin-bottom: 0;
-  /**/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron .tile {
+  height: 25vh;
+  margin-bottom: 0;
+}
+
+.tile .centered,
+.tile .block .centered {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .bg-one {
@@ -54,7 +68,7 @@ body {
   position: relative;
 }
 
-.tile a {
+.tile a.block {
   background-color: rgba(0,0,0,.44);
   color:white;
   display: block;
@@ -70,7 +84,7 @@ body {
   transition: all 400ms;
 }
 
-.tile a:hover {
+.tile a.block:hover {
   background-color: rgba(0,0,0,.66);
 }
 
